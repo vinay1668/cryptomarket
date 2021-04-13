@@ -2,12 +2,9 @@ import React from "react";
 import './styles.css'
 import bitcoin from "../images/cryptos/bitcoin.png";
 import './bitcoininfo.css'
-
 import {Link} from "react-router-dom";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-
 
 
 function Bitcoin(props){
