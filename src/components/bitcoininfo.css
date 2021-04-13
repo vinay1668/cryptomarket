@@ -1,0 +1,694 @@
+
+body{ padding-bottom: 50px;}
+
+
+h1{
+    font-family: 'Rubik', sans-serif; 
+   font-weight: 700;
+    font-size: 70px;
+    position: absolute;
+    top:30px;
+    left:650px;
+    color: #39065a;
+}
+
+.bitimg{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top:30px;
+    left:550px;
+}
+p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+
+    position: absolute;
+    top:180px;
+    text-align: left;
+    color:#252525;
+    margin-left: 80px;
+    margin-right: 500px;
+    width:1000px
+}
+.bits{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top:150px;
+    left:1200px;
+}
+ .blockchain{
+    position: absolute;
+    top:500px;
+    left:80px;
+    color: #2b2e4a;
+    font-size: 50px;
+  
+    font-family: 'Libre Baskerville', serif;
+font-family: 'Nunito', sans-serif;
+}
+
+.namecard{
+    position: absolute;
+    left:100px;
+    top:650px;
+}
+
+.blockcard{
+    position: absolute;
+    left:500px;
+    top:650px
+}
+
+.nodecard{
+    position: absolute;
+    left:900px;
+    top:650px
+}
+.balance{
+    position: absolute;
+    color: #2b2e4a;
+    font-size: 50px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Nunito', sans-serif;
+    top:1000px;
+    left:80px
+
+
+}
+.address{
+    position: absolute;
+    top: 1100px;
+    left:80px;
+  
+    color:#f9ecec;
+    font-size: 30px;
+
+}
+.receivedcard{
+    position: absolute;
+    left:100px;
+    top:1250px
+
+
+}
+.inner{
+    
+   
+    font-size: 30px;
+}
+.sentcard{
+    
+    position:absolute;
+    left:470px;
+    top:1250px
+}
+
+.balancecard{
+    position: absolute;
+    left:840px;
+    top:1250px
+}
+.transactioncard{
+    position: absolute;
+    left:1210px;
+    top:1250px
+}
+
+.market{
+    position: absolute;
+    color: #2b2e4a;
+    font-size: 50px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Nunito', sans-serif;
+    top: 1600px;
+    left: 80px;
+
+}
+
+.ratecard{
+    position: absolute;
+    left:100px;
+    top:1750px;
+}
+.highcard{
+    position:absolute;
+    left: 470px;
+    top: 1750px;
+}
+.rankcard{
+
+    position:absolute;
+    left: 840px;
+    top: 1750px
+}
+.highdaycard{
+
+    position:absolute;
+    left: 1210px;
+    top: 1750px;
+}
+.lowdaycard{
+  position:absolute;
+  left:100px;
+  top:2100px;
+}
+.changecard{
+    position:absolute;
+    left:470px;
+    top:2100px;
+}
+.maxcard{
+   
+    position:absolute;
+    left:840px;
+    top:2100px;
+}
+.circulatingcard{
+
+    
+    position:absolute;
+    left:1210px;
+    top:2100px;
+}
+.uno{
+    position:absolute;
+    top:2400px;
+    left:120px;
+    padding: 30px;
+
+}
+.due{
+
+    position:absolute;
+    left:1200px;
+    top:2400px;
+    padding:30px;
+
+}
+.tre{
+
+    position:absolute;
+    padding:30px;
+    top:2400px;
+    left:700px;
+
+}
+
+
+
+.key{
+    position: absolute;
+    top:1100px;
+    left:280px;
+    width: 500px;
+
+
+}
+.click{
+    position: absolute;
+    top:1100px;
+    left:780px;
+    
+
+}
+
+.mycard{
+    position: absolute;
+    width: 250px;
+    height : 200px;
+    
+    border-radius:20px;
+    background-color:#98ddca;
+    background-image: url(../images/cardbackground.jpg);
+    opacity: 0;
+
+}
+
+.pricecard{
+    position: absolute;
+    width: 150px;
+    height : 40px;
+    border-radius:10px;
+    background-color:#98ddca;
+    background-image: url(../images/cardbackground.jpg);
+    font-size: 25px;
+
+}
+.retard{
+    color: #2b2e4a;
+    font-size: 50px;
+  
+    font-family: 'Libre Baskerville', serif;
+font-family: 'Nunito', sans-serif;
+position:absolute;
+top:600px;
+left:80px;
+}
+.retardpricecard{
+    position:absolute;
+    left:100px;
+    top:750px
+}
+.retardhighcard{
+    position:absolute;
+    left:470px;
+    top:750px;
+}
+.retardrankcard{
+    position:absolute;
+    left:840px;
+    top:750px;
+}
+.retardhighdaycard{
+    position:absolute;
+    left:1210px;
+    top:750px;
+
+}
+.retardlowdaycard{
+    position:absolute;
+    left:100px;
+    top:1100px;
+
+}
+.retardchangecard{
+    position:absolute;
+    left:470px;
+    top:1100px;
+
+}
+.retardmaxcard{
+    position:absolute;
+    left:840px;
+    top:1100px;
+
+}
+.retardcirculatingcard{
+    position:absolute;
+    left:1210px;
+    top:1100px;
+
+}
+
+.retarduno{
+    padding:30px;
+    position:absolute;
+    top:1400px;
+    left:120px;
+}
+.retarddue{
+    position:absolute;
+    padding: 30px;
+    top:1400px;
+    left:1200px;
+}
+.retardtre{
+    position:absolute;
+    padding: 30px;
+    top:1400px;
+    left:700px;
+
+}
+@media screen and (max-width: 600px) {
+
+
+
+body{ padding-bottom: 50px;}
+
+
+h1{
+
+    font-family: 'Lato', sans-serif;
+  
+    font-size: 70px;
+    position: absolute;
+    top:40px;
+    left:60px;
+    color: #0a043c;
+}
+.et{
+    left:20px;
+}
+.doge{
+    left:20px;
+}
+.das{
+    left:80px;
+}
+.bitimg{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top:130px;
+    left:120px;
+}
+p{
+   
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    
+
+    position: absolute;
+    top:230px;
+    text-align: left;
+    color:#252525;
+    margin-left: 30px;
+    margin-right: 50px;
+    width:300px
+}
+.bits{
+    display: none;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top:150px;
+    left:1200px;
+}
+ .blockchain{
+    
+    position: absolute;
+    color: #2b2e4a;
+    font-size: 50px;
+    top:950px;
+    left:30px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Nunito', sans-serif;
+}
+.namecard{
+    
+    position: absolute;
+    left:40px;
+    top:1100px;
+}
+
+.blockcard{
+    position: absolute;
+    left:40px;
+    top:1400px
+}
+
+.nodecard{
+    
+    position: absolute;
+    left:40px;
+    top:1700px
+}
+.balance{
+    
+    position: absolute;
+    color: #2b2e4a;
+    font-size: 50px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Nunito', sans-serif;
+    top:2000px;
+    left:30px
+
+
+}
+.address{
+  
+    position: absolute;
+    top: 2200px;
+    left:10px;
+  
+    color:#f9ecec;
+    font-size: 30px;
+
+}
+.key{
+   
+    position: absolute;
+    top:2250px;
+    left:10px;
+    width: 280px;
+
+
+}
+.click{
+   
+    position: absolute;
+    top:2250px;
+    left:290px;
+   
+
+}
+.receivedcard{
+   
+    position: absolute;
+    left:40px;
+    top:2400px
+
+
+}
+.inner{
+    
+  
+    font-size: 30px;
+}
+.sentcard{
+    
+   
+    position:absolute;
+    left:40px;
+    top:2700px
+}
+
+.balancecard{
+    
+    position: absolute;
+    left:40px;
+    top:3000px
+}
+.transactioncard{
+    
+    position: absolute;
+    left:40px;
+    top:3300px
+}
+
+.market{
+    
+    position: absolute;
+    color: #2b2e4a;
+    font-size: 50px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Nunito', sans-serif;
+    top: 3600px;
+    left: 30px;
+
+}
+
+.ratecard{
+    position: absolute;
+    left:40px;
+    top:3800px;
+}
+
+.highcard{
+    position:absolute;
+    left: 40px;
+    top: 4100px;
+}
+
+.rankcard{
+
+    position:absolute;
+    left: 40px;
+    top: 4400px
+}
+
+.highdaycard{
+    
+    position:absolute;
+    left: 40px;
+    top: 4700px;
+}
+
+.lowdaycard{
+  
+  position:absolute;
+  left:40px;
+  top:5000px;
+}
+
+.changecard{
+    position:absolute;
+    left:40px;
+    top:5300px;
+}
+
+.maxcard{
+   
+    position:absolute;
+    left:40px;
+    top:5600px;
+}
+
+.circulatingcard{
+
+    
+    position:absolute;
+    left:40px;
+    top:5900px;
+}
+
+.uno{
+    
+    position:absolute;
+    top:6200px;
+    left:80px;
+    padding: 30px;
+
+}
+
+.due{
+
+    position:absolute;
+    left:80px;
+    top:6250px;
+    padding:30px;
+
+}
+
+.tre{
+
+    position:absolute;
+    padding:30px;
+    top:6300px;
+    left:80px;
+
+}
+
+.mycard{
+    position: absolute;
+    width: 250px;
+    height : 200px;
+    border-radius:20px;
+    background-color:#98ddca;
+    background-image: url(../images/cardbackground.jpg);
+    opacity: 0;
+
+}
+
+.pricecard{
+    position: absolute;
+    width: 150px;
+    height : 40px;
+    border-radius:10px;
+    background-color:#98ddca;
+    background-image: url(../images/cardbackground.jpg);
+    font-size: 25px;
+
+}
+
+.retard{
+    color: #2b2e4a;
+    font-size: 50px;
+  
+    font-family: 'Libre Baskerville', serif;
+font-family: 'Nunito', sans-serif;
+position:absolute;
+top:950px;
+left:40px;
+}
+.retardpricecard{
+ 
+    position:absolute;
+    left:40px;
+    top:1150px
+}
+.retardhighcard{
+    
+
+    position:absolute;
+    left:40px;
+    top:1450px;
+}
+.retardrankcard{
+
+
+    position:absolute;
+    left:40px;
+    top:1750px;
+
+}
+.retardhighdaycard{
+  
+
+    position:absolute;
+    left:40px;
+    top:2050px;
+
+}
+.retardlowdaycard{
+
+
+    position:absolute;
+    left:40px;
+    top:2350px;
+
+}
+.retardchangecard{
+    
+
+    position:absolute;
+    left:40px;
+    top:2650px;
+
+}
+.retardmaxcard{
+    
+
+    position:absolute;
+    left:40px;
+    top:2950px;
+
+}
+.retardcirculatingcard{
+    position:absolute;
+    left:40px;
+    top:3250px;
+
+}
+
+.retarduno{
+  
+
+    padding:30px;
+    position:absolute;
+    top:3550px;
+    left:80px;
+}
+.retarddue{
+    
+
+    position:absolute;
+    padding: 30px;
+    top:3600px;
+    left:80px;
+}
+.retardtre{
+   
+
+    position:absolute;
+    padding: 30px;
+    top:3650px;
+    left:80px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

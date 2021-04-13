@@ -1,0 +1,933 @@
+/* 
+body,html{
+   height: 100%;
+} */
+.frame{
+   position: fixed;
+   z-index: 2;
+  
+}
+h2{
+   font-family: 'Noto Sans JP', sans-serif;
+   color: #252525;
+}
+h5{
+   color:#1c1427;
+}
+body{
+   /* The image used */
+   background-image: url("../images/blue_background.jpg");
+ 
+   /* Full height */
+   height: 100%;
+   padding-bottom: 100px;
+   
+ 
+   /* Center and scale the image nicely */
+   background-position: center center;
+   background-repeat: repeat;
+   background-size: cover;
+   background-attachment: fixed;
+  
+  
+}
+.box{
+   padding-bottom: 100px;
+   margin-bottom: 100px;
+}
+ 
+ .cartoon{
+    position: fixed;
+    right: 30px;
+    top: 250px;
+
+ }
+ .title{
+  
+   position:absolute;
+   left:500px;
+   top:50px;
+   font-family: 'Rubik', sans-serif; 
+   font-size: 80px;
+   color: 	#00FF00;
+   font-weight: 700;
+ }
+ .titleend{
+   position:absolute;
+   left:730px;
+   top:50px;
+   font-family: 'Rubik', sans-serif; 
+   font-size: 80px;
+   font-weight: 700;
+   color:#666666;
+
+   
+ }
+ .titlepic{
+   position:absolute;
+   left:320px;
+   top:10px;
+   height: 200px;
+  
+
+ }
+ .retardtitle{
+    display: none;
+ }
+ .retardtitleend{
+    display:none;
+    }
+.bitcoin{
+   position:absolute;
+   top: 400px;
+   left: 80px;
+  
+}
+.bitcoinimg{
+   width: 120px;
+   height: 120px;
+   position: absolute;
+  
+   top: 250px;
+   left:80px;
+}
+.bitcoinprice{
+   position: absolute;
+ 
+   width: 150px;
+   height:40px;
+   text-align: center;
+   border-radius:10px;
+   background-image: url(../images/cardbackground.jpg);
+   position:absolute;
+   left: 60px;
+   top: 450px;
+}
+.ether{
+   position:absolute;
+   left: 1200px;
+   top: 400px;
+   left :380px;
+  
+
+}
+.etherimg{
+   width: 120px;
+   height: 120px;
+   position: absolute;
+   top: 250px;
+   left: 380px;
+}
+.etherprice{
+      position: absolute;
+    
+      width: 150px;
+      height:40px;
+      text-align: center;
+      border-radius:10px;
+      background-image: url(../images/cardbackground.jpg);
+      position:absolute;
+      left: 380px;
+      top: 450px;
+}
+.ripple{
+   position:absolute;
+   left: 80px;
+   top: 1000px;
+  
+
+}
+.rippleimg{
+   position: absolute;
+   width: 120px;
+   height: 120px;;
+   top:850px;
+   left:80px;
+}
+.rippleprice{
+   position: absolute;
+    
+      width: 150px;
+      height:40px;
+      text-align: center;
+      border-radius:10px;
+      background-image: url(../images/cardbackground.jpg);
+      position:absolute;
+      left: 60px;
+      top: 1050px;
+   
+}
+
+.dogecoin{
+   position:absolute;
+   left: 680px;
+   top: 400px;
+  
+}
+.dogecoinimg{
+   position: absolute;
+   width: 120px;
+   height: 120px;
+   top: 250px;
+   left: 680px;
+}
+.dogecoinprice{
+   position: absolute;
+    
+      width: 150px;
+      height:40px;
+      text-align: center;
+      border-radius:10px;
+      background-image: url(../images/cardbackground.jpg);
+      position:absolute;
+      left: 680px;
+      top: 450px;
+
+}
+.dash{
+   position:absolute;
+   left: 90px;
+   top: 700px;
+  
+
+}
+.dashimg{
+   position: absolute;
+   width: 120px;
+   height: 120px;;
+   top:550px;
+   left:80px;
+}
+.dashprice{
+   position: absolute;
+    
+      width: 150px;
+      height:40px;
+      text-align: center;
+      border-radius:10px;
+      background-image: url(../images/cardbackground.jpg);
+      position:absolute;
+      left: 60px;
+      top: 750px;
+   
+}
+
+.litecoin{
+   position:absolute;
+   left: 390px;
+   top: 700px;
+  
+
+}
+.litecoinimg{
+   position: absolute;
+   width: 120px;
+   height: 120px;
+   top: 550px;
+   left:380px;
+}
+.litecoinprice{
+   position: absolute;
+    
+      width: 150px;
+      height:40px;
+      text-align: center;
+      border-radius:10px;
+      background-image: url(../images/cardbackground.jpg);
+      position:absolute;
+      left: 380px;
+      top: 750px;
+}
+.zcash{
+   position:absolute;
+   left: 710px;
+   top: 700px;
+  
+}
+.zcashimg{
+   position: relative;
+   width: 120px;
+   height: 120px;
+   top:550px;
+   left:680px;
+}
+.zcashprice{
+   position: absolute;
+    
+      width: 150px;
+      height:40px;
+      text-align: center;
+      border-radius:10px;
+      background-image: url(../images/cardbackground.jpg);
+      position:absolute;
+      left: 680px;
+      top: 750px;
+
+}
+
+.monero{
+   position:absolute;
+   left: 390px;
+   top: 1000px;
+  
+}
+.moneroimg{
+   position: absolute;
+   width: 120px;
+   height: 120px;
+   top:850px;
+   left:380px;
+}
+.moneroprice{
+
+   position: absolute;
+    
+   width: 150px;
+   height:40px;
+   text-align: center;
+   border-radius:10px;
+   background-image: url(../images/cardbackground.jpg);
+   position:absolute;
+   left: 380px;
+   top: 1050px;
+}
+.cardano{
+    position:absolute;
+    left: 680px;
+    top: 1000px;
+   
+ }
+ .cardanoimg{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 850px;
+    left:680px;
+ }
+ .cardanoprice{
+   position: absolute;
+    
+   width: 150px;
+   height:40px;
+   text-align: center;
+   border-radius:10px;
+   background-image: url(../images/cardbackground.jpg);
+   position:absolute;
+   left: 680px;
+   top: 1050px;
+ }
+ .binance{
+    position:absolute;
+    left: 70px;
+    top: 1300px;
+   
+ }
+ .binanceimg{
+   position: absolute;
+   width: 120px;
+   height: 120px;
+   top: 1150px;
+   left:80px;
+
+ }
+ .binanceprice{
+   position: absolute;
+    
+   width: 150px;
+   height:40px;
+   text-align: center;
+   border-radius:10px;
+   background-image: url(../images/cardbackground.jpg);
+   position:absolute;
+   left: 60px;
+   top: 1350px;
+
+ }
+ .stell{
+   position:absolute;
+   left: 400px;
+   top: 1300px;
+  
+}
+.stellarimg{
+      position: absolute;
+   width: 120px;
+   height: 120px;
+   top: 1150px;
+   left:380px;
+
+}
+.stellarprice{
+
+   position: absolute;
+    
+      width: 150px;
+      height:40px;
+      text-align: center;
+      border-radius:10px;
+      background-image: url(../images/cardbackground.jpg);
+      position:absolute;
+      left: 380px;
+      top: 1350px;
+}
+
+.terra{
+
+   position:absolute;
+   left: 80px;
+   top: 1600px;
+  
+}
+.terraimg{
+   position: absolute;
+   width: 130px;
+   height: 120px;
+   top: 1450px;
+   left:80px;
+ 
+   
+}
+.tether{
+   position:absolute;
+   left: 700px;
+   top: 1300px;
+  
+
+}
+.tetherimg{
+   position: absolute;
+   width: 120px;
+   height: 120px;
+   top: 1150px;
+   left:680px;
+
+}
+.tetherprice{
+   position: absolute;
+    
+   width: 150px;
+   height:40px;
+   text-align: center;
+   border-radius:10px;
+   background-image: url(../images/cardbackground.jpg);
+   position:absolute;
+   left: 680px;
+   top: 1350px;}
+
+ .bitcoincash{
+    position:absolute;
+    left: 900px;
+    top: 300px;
+
+ }
+
+
+ .instaicon{
+    position: absolute;
+    padding:30px;
+    height: 80px;
+    width: 80px;
+    left:35px;
+    top: 1525px;
+    opacity: 0.3;
+
+ }
+ .instalink{
+   position: absolute;
+   padding:30px;
+   left:60px;
+   top: 1520px;
+   opacity: 0.3;
+   font-size: 18px;
+
+
+ }
+ .author{
+   position: absolute;
+   padding:30px;
+   left:1150px;
+   top: 1520px;
+   opacity: 0.3;
+   font-size: 18px;
+
+
+ }
+ .copyright{
+   position: absolute;
+   padding:30px;
+   left:600px;
+   top: 1520px;
+   opacity: 0.3;
+   font-size: 18px;
+
+ }
+ .end{
+
+   font-family: 'Nunito', sans-serif;
+   font-size: 20px;
+   color: #000;
+   opacity: 0.5;
+   text-decoration: none;
+
+}
+ @media screen and (max-width: 600px) {
+
+   h2{
+   font-family: 'Noto Sans JP', sans-serif;
+   color: #252525;
+   font-size: 40px;
+}
+h5{
+   color:#1c1427;
+   font-size: 30px;
+}
+
+
+.cartoon{
+   display: none;
+}
+
+.title{
+   display: none;
+  
+
+ }
+ .titleend{
+    
+    display: none;
+
+   
+ }
+ .titlepic{
+    display:none
+ }
+ .retardtitle{
+    display: inline;
+    position:absolute;
+    top:0px;
+    left:50px;
+    font-family: 'Rubik', sans-serif; 
+    font-size: 80px;
+    color: 	#00FF00;
+    font-weight: 700;
+    
+ }
+ .retardtitleend{
+   display: inline;
+   position:absolute;
+   top:90px;
+   left:50px;
+   font-family: 'Rubik', sans-serif; 
+   font-size: 80px;
+   color: 	#666666;
+   font-weight: 700;
+
+ }
+.bitcoin{
+   position:absolute;
+   top: 340px;
+   left: 110px;
+
+
+  
+}
+.bitcoinimg{
+   width: 150px;
+   height: 150px;
+   position: absolute;
+  
+   top: 190px;
+   left:100px;
+}
+.bitcoinprice{
+   position: absolute;
+ 
+   width: 180px;
+   height:50px;
+   text-align: center;
+   border-radius:10px;
+   left: 90px;
+   top:400px;
+   background-image: url(../images/cardbackground.jpg);
+}
+
+
+.etherimg{
+   
+   width: 150px;
+   height: 150px;
+   position: absolute;
+  
+   top: 530px;
+   left:100px;
+
+}
+.ether{
+   position:absolute;
+   
+   top: 690px;
+   left :90px;
+  
+}
+.etherprice{
+
+
+   position: absolute;
+   top: 750px;
+   left:90px;
+   width: 200px;
+   height:50px;
+}
+
+.ripple{
+   
+
+   position:absolute;
+   left: 120px;
+   top: 2590px;
+  
+
+}
+.rippleimg{
+   
+
+   position: absolute;
+   width: 150px;
+   height: 150px;;
+   top:2430px;
+   left:110px;
+}
+.rippleprice{
+   
+
+   position: absolute;
+   top:2650px;
+   left:90px;
+   width:200px;
+   height:50px;
+   
+}
+
+.dogecoin{
+   
+
+   position:absolute;
+   left: 100px;
+   top: 1070px;
+  
+}
+.dogecoinimg{
+  
+
+   position: absolute;
+   width: 150px;
+   height: 150px;
+   top: 910px;
+   left: 110px;
+}
+.dogecoinprice{
+
+
+   position:absolute;
+   top:1130px;
+   left:90px;
+   width:200px;
+   height:50px;
+
+}
+.dash{
+   
+
+   position:absolute;
+   left: 130px;
+   top: 1450px;
+  
+
+}
+.dashimg{
+  
+
+   position: absolute;
+   width: 150px;
+   height: 150px;;
+   top:1290px;
+   left:110px;
+}
+.dashprice{
+   
+
+   position: absolute;
+   top:1510px;
+   left:90px;
+   width:200px;
+   height:50px;
+   
+}
+
+.litecoin{
+
+
+   position:absolute;
+   left: 110px;
+   top: 1830px;
+  
+
+}
+.litecoinimg{
+   
+
+   position: absolute;
+   width: 150px;
+   height: 150px;
+   top: 1670px;
+   left:110px;
+}
+.litecoinprice{
+  
+
+   position: absolute;
+   top:1890px;
+   left:90px;
+   width:200px;
+   height:50px;
+
+}
+.zcash{
+   
+
+   position:absolute;
+   left: 130px;
+   top: 2210px;
+  
+}
+.zcashimg{
+   
+
+   position: relative;
+   width: 150px;
+   height: 150px;
+   top:2050px;
+   left:110px;
+}
+.zcashprice{
+
+
+   position:absolute;
+   top:2270px;
+   left: 90px;
+   width:200px;
+   height:50px;
+
+}
+
+.monero{
+   
+
+   position:absolute;
+   left: 110px;
+   top: 2970px;
+  
+}
+.moneroimg{
+   
+
+   position: absolute;
+   width: 150px;
+   height: 150px;
+   top:2810px;
+   left:110px;
+}
+.moneroprice{
+
+
+   position: absolute;
+   top:3030px;
+   left:80px;
+   width:200px;
+   height:50px;
+}
+.cardano{
+  
+
+    position:absolute;
+    left: 110px;
+    top: 3350px;
+   
+ }
+ .cardanoimg{
+
+
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 3190px;
+    left:110px;
+ }
+ .cardanoprice{
+   
+
+    position: absolute;
+    top:3410px;
+    left:80px;
+    width:200px;
+   height:50px;
+ }
+ .binance{
+   
+
+    position:absolute;
+    left: 100px;
+    top: 3730px;
+   
+ }
+ .binanceimg{
+   
+
+   position: absolute;
+   width: 150px;
+   height: 150px;
+   top: 3570px;
+   left:110px;
+
+ }
+ .binanceprice{
+   
+
+    position: absolute;
+    top:3790px;
+    left:80px;
+    width:200px;
+    height:50px;
+
+ }
+ .stell{
+  
+
+   position:absolute;
+   left: 120px;
+   top: 4110px;
+  
+}
+.stellarimg{
+  
+
+      position: absolute;
+   width: 150px;
+   height: 150px;
+   top: 3950px;
+   left:110px;
+
+}
+.stellarprice{
+  
+
+   position: absolute;
+   top:4170px;
+   left:80px;
+   width:200px;
+   height:50px;
+}
+
+.terra{
+
+   display: none;
+
+   position:absolute;
+   left: 80px;
+   top: 1600px;
+  
+}
+.terraimg{
+   display: none;
+
+   position: absolute;
+   width: 130px;
+   height: 120px;
+   top: 1450px;
+   left:80px;
+ 
+   
+}
+.tether{
+  
+
+   position:absolute;
+   left: 110px;
+   top: 4490px;
+  
+
+}
+.tetherimg{
+   
+
+   position: absolute;
+   width: 150px;
+   height: 150px;
+   top: 4330px;
+   left:110px;
+
+}
+.tetherprice{
+   
+
+   position: absolute;
+   top:4550px;
+   left:80px;
+   width:200px;
+   height:50px;
+}
+
+ .end{
+
+   font-family: 'Nunito', sans-serif;
+   font-size: 20px;
+   color: #000;
+   opacity: 0.5;
+   text-decoration: none;
+
+}
+.instaicon{
+   position: absolute;
+   padding:30px;
+   height: 80px;
+   width: 80px;
+   left:95px;
+   top: 4745px;
+   opacity: 0.3;
+
+}
+.instalink{
+  position: absolute;
+  padding:30px;
+  left:120px;
+  top: 4740px;
+  opacity: 0.3;
+  font-size: 18px;
+
+
+}
+.author{
+  position: absolute;
+  padding:30px;
+  left:10px;
+  top: 4800px;
+  opacity: 0.3;
+  font-size: 18px;
+
+
+}
+.copyright{
+  position: absolute;
+  padding:30px;
+  left:80px;
+  top: 4680px;
+  opacity: 0.3;
+  font-size: 18px;
+
+}
+
+
+ }
+
+
+
